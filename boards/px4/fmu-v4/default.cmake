@@ -49,6 +49,7 @@ px4_add_board(
 		uavcan
 
 	MODULES
+		airspeed_selector
 		attitude_estimator_q
 		camera_feedback
 		commander
@@ -57,7 +58,6 @@ px4_add_board(
 		events
 		fw_att_control
 		fw_pos_control_l1
-		rover_pos_control
 		land_detector
 		landing_target_estimator
 		load_mon
@@ -67,11 +67,11 @@ px4_add_board(
 		mc_att_control
 		mc_pos_control
 		navigator
+		rover_pos_control
 		sensors
 		sih
 		vmount
 		vtol_att_control
-		airspeed_selector
 
 	SYSTEMCMDS
 		bl_update
@@ -82,6 +82,7 @@ px4_add_board(
 		i2cdetect
 		led_control
 		mixer
+		modules
 		motor_ramp
 		motor_test
 		mtd
