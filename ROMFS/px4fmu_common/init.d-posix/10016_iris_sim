@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# @name 3DR Iris Quadrotor SITL with fail-safes off
+#
+# @type Quadrotor Wide
+#
+# @maintainer Julian Oes <julian@oes.ch>
+#
+
+sh /etc/init.d-posix/10016_iris
+
+param set NAV_RCL_ACT 0
+param set NAV_DLL_ACT 0
+
+
