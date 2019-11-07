@@ -67,3 +67,8 @@ posix-configs/SITL/init/test/*_generated
 # KDevelop ignores
 .kdev4/*
 *.kdev4
+Tools/.vscode/c_cpp_properties.json
+.vscode/settings.json
+Tools/.vscode/settings.json
+.vscode/settings.json
+.vscode/settings.json
