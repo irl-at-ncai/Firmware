@@ -12,5 +12,5 @@ sh /etc/init.d-posix/10016_iris
 param set NAV_RCL_ACT 0
 param set NAV_DLL_ACT 0
 param set COM_DISARM_PRFLT 0
-
+param set COM_DL_LOSS_T $((${PX4_SIM_SPEED_FACTOR} * 10))
 
