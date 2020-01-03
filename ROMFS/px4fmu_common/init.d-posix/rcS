@@ -50,6 +50,8 @@ else
 	fi
 fi
 
+echo "PX4_SIM_MODEL set to $PX4_SIM_MODEL"
+
 # clear bootlog
 [ -f $LOG_FILE ] && rm $LOG_FILE
 
